@@ -1,11 +1,13 @@
 plugins {
+    id 'groovy'
     id 'com.github.johnrengelman.shadow' version '1.2.2'
 }
 
+group 'fr.uvsq.doosa'
 apply plugin: 'groovy'
 
 apply plugin: 'application'
-mainClassName = 'fr.uvsq.doosa.gradletuto.Main'
+mainClassName = 'fr.uvsq.doosa.gbintool.Main'
 
 repositories {
     mavenCentral()

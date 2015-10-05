@@ -1,4 +1,4 @@
-package fr.uvsq.doosa.gradletuto
+package fr.uvsq.doosa.gbintool
 
 import org.junit.Test
 
